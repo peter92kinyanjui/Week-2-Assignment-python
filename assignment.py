@@ -4,5 +4,5 @@ list1 = [50,60,70]
 my_list.extend(list1)
 del(my_list[-1])
 my_list.sort()
-print(my_list.index(30))
-print(my_list)
+print(f'The index of value 30 in my_list is : {my_list.index(30)}')
+
